@@ -1,5 +1,5 @@
 const container = document.querySelector(".container");
-const gridSlots = 16*16;
+const gridSlots = (16*16);
 
 //Creating multiple divs
 for (let i = 0; i < gridSlots; i++) {
@@ -7,3 +7,4 @@ for (let i = 0; i < gridSlots; i++) {
     slot.classList.add("slot");
     container.appendChild(slot);
 }
+

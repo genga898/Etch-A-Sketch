@@ -1,6 +1,10 @@
 body{
     background-color: grey;
+    box-sizing: border-box;
 }
 .container{
     background-color: red;
+    display: flex;
+    border: 10px;
+    border-color: black;
 }
