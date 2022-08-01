@@ -1,10 +1,13 @@
 body{
-    background-color: grey;
-    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.664);
 }
 .container{
-    background-color: red;
-    display: flex;
-    border: 10px;
-    border-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(255, 255, 255);
+    border: 5px;
+    margin: 5px;
+    padding: 5px;
+    height: 900px;
+    width: 900px;
 }
