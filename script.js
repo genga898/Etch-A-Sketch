@@ -10,7 +10,7 @@ inputBtn.addEventListener("click", () => {
         const slots =Math.sqrt(gridSize);
         const columnSize = 720/slots;
         const rowSize = 720/slots;
-        createDiv(gridSize);
+        createGrid(gridSize);
         container.style.setProperty("grid-template-columns", `repeat(${slots}, ${columnSize}px)`);
         container.style.setProperty("grid-template-rows", `repeat(${slots}, ${rowSize}px)`);
     }
@@ -19,7 +19,7 @@ inputBtn.addEventListener("click", () => {
 
 
 //Creating multiple divs
-function createDiv(gridSize){
+function createGrid(gridSize){
     for(let i = 0; i < gridSize; i++) {
         const slot = document.createElement("div");
         slot.classList.add("slot");
@@ -32,4 +32,4 @@ function createDiv(gridSize){
         });
     }
 }
-createDiv(grid);
+createGrid(grid);
