@@ -2,13 +2,30 @@ body{
     background-color: rgba(128, 128, 128, 0.664);
     box-sizing: border-box;
 }
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .container{
     display: grid;
-    grid-template-columns: repeat(16, 50px);
+    grid-template-columns: repeat(16, 45px);
+    grid-template-rows: repeat(16, 45px);
     background-color: rgb(0, 0, 0);
     border: 5px;
     margin: 5px;
     padding: 5px;
-    height: 800px;
-    width: 800px;
+    height: 720px;
+    width: 720px;
+}
+#button{
+    text-align: center;
+    padding: 5px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
